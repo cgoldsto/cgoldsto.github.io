@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.6);
+    --bs-navbar-active-color: rgba(255, 255, 255, .9);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.75);
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    color:rgba(255, 255, 255, 1);
+}
+
+.bg-dark {
+    background-color: #004a3b !important;
+}
+
+.homepage {
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: #004a3b !important;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 40px;
+    height: 30px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.designpage {
+    padding-top: 10px;
+}
+
+.cardContainer {
+    max-width: 1000px;
+}
+
+.btn {
+    background-color:mediumvioletred;
+    color: white;
+    border-color: mediumvioletred;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: mediumvioletred;
+    border-color: mediumvioletred;
+}
+
+.modal-body {
+    text-align: center;
+}
