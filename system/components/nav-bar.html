@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-  	<title>Design System: Design by Cora Goldston</title>
+  	<title>Navigation Bar: Design by Cora Goldston</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -95,67 +95,183 @@
           <div class = "row p-5 pt-6">
             <div id="content">
 
-              <h2>Component 1 (e.g. buttons)</h2>
-              <p>See posted student examples. Below is a code example for an accordian. You will need to add the prism.js and the prism.css to the component pages for this to work. </p>
+              <h2>Navigation Bar</h2>
 
-              <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+              <figure class="comp-fig">
+                <img class="comp-img" src="../images/navbar.png" alt="Image of navigation bar">
+              </figure>
 
-        <pre class="language-markup"><code>
-          &lt;div class=&quot;accordion&quot; id=&quot;research-accordion&quot;&gt;
-            &lt;div class=&quot;card&quot;&gt;
-               &lt;div class=&quot;card-header&quot; id=&quot;headingOne&quot;&gt;
-                  &lt;h2 class=&quot;mb-0&quot;&gt;
-                      &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;
-                      button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseOne&quot; 
-                      aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;
-                          Project Summary and Motivation
-                      &lt;/button&gt;
-                    &lt;/h2&gt;
-                &lt;/div&gt;
-                &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-                aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-                    &lt;div class=&quot;card-body&quot;&gt;
-                        Page Content
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;card&quot;&gt;
-               &lt;div class=&quot;card-header&quot; id=&quot;headingTwo&quot;&gt;
-                  &lt;h2 class=&quot;mb-0&quot;&gt;
-                      &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                      data-toggle=&quot;collapse&quot; data-target=&quot;#collapseTwo&quot; 
-                      aria-expanded=&quot;false&quot; aria-controls=&quot;collapseTwo&quot;&gt;
-                          Related Publications and Posters
-                      &lt;/button&gt;
-                    &lt;/h2&gt;
-                &lt;/div&gt;
-                &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-                aria-labelledby=&quot;headingOne&quot;data-parent=&quot;#research-accordian&quot;&gt;
-                    &lt;div class=&quot;card-body&quot;&gt;
-                        Page Content
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;card&quot;&gt;
-               &lt;div class=&quot;card-header&quot; id=&quot;headingThree&quot;&gt;
-                  &lt;h2 class=&quot;mb-0&quot;&gt;
-                      &lt;button class=&quot;btn btn-link btn-block text-left&quot; type=&quot;button&quot; 
-                      data-toggle=&quot;collapse&quot; data-target=&quot;#collapseThree&quot; 
-                      aria-expanded=&quot;false&quot; aria-controls=&quot;collapseThree&quot;&gt;
-                          Funded Research Grants
-                      &lt;/button&gt;
-                    &lt;/h2&gt;
-                &lt;/div&gt;
-                &lt;div id=&quot;collapseOne&quot; class=&quot;collapse show&quot; 
-                aria-labelledby=&quot;headingThree&quot;data-parent=&quot;#research-accordian&quot;&gt;
-                    &lt;div class=&quot;card-body&quot;&gt;
-                        Page Content
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-           &lt;/div&gt; 
-            </code>
-        </pre><!-- Code example -->
+              <h3>Description and Use Details</h3>
+              <p>The navigation bar must be used on all Design by Cora Goldston webpages. On most pages, this will be at the top of the screen. The navigation bar allows the user to go from their current page to any other page on the website.</p>
+
+              <h3>Accessbility</h3>
+              <ul>
+                <li>Ensure that the link colors contrast with the navigation bar's background color.</li>
+                <li>Ensure visual contrast with dark mode, in case users have dark mode enabled in their browsers.</li>
+              </ul>
+
+              <h3>Code</h3>
+              <code>
+                /* Desktop Navigation Bar */
+                <br>
+                position: relative;
+                <br>
+                width: 1440px;
+                <br>
+                height: 102px;
+                <br>
+                left: 30px;
+                <br>
+                top: 149px;
+                <br>
+                <br>
+                /* Rectangle Background for Navigation Bar */
+                <br>
+                position: absolute;
+                <br>
+                left: 0%;
+                <br>
+                right: 0%;
+                <br>
+                top: 0%;
+                <br>
+                bottom: 0%;
+                <br>
+                background: rgba(243, 162, 66, 0.5);
+                <br>
+                <br>
+                /* Horizontal Divider Line for Header - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 100%;
+                <br>
+                right: -100%;
+                <br>
+                top: 94.12%;
+                <br>
+                bottom: 5.88%;
+                <br>
+                border: 3px solid #832412;
+                <br>
+                transform: rotate(180deg);
+                <br>
+                <br>
+                /* Name - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 8.47%;
+                <br>
+                right: 63.54%;
+                <br>
+                top: 17.65%;
+                <br>
+                bottom: 8.82%;
+                <br>
+                font-family: 'Jost';
+                <br>
+                font-style: normal;
+                <br>
+                font-weight: 500;
+                <br>
+                font-size: 60px;
+                <br>
+                line-height: 87px;
+                <br>
+                color: #832412;
+                <br>
+                <br>
+                /* Home Link - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 50.69%;
+                <br>
+                right: 40.69%;
+                <br>
+                top: 26.47%;
+                <br>
+                bottom: 0%;
+                <br>
+                font-family: 'Jost';
+                <br>
+                font-style: normal;
+                <br>
+                font-weight: 400;
+                <br>
+                font-size: 48px;
+                <br>
+                line-height: 69px;
+                <br>
+                color: #832412;
+                <br>
+                <br>
+                /* About Link - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 62.08%;
+                <br>
+                right: 28.96%;
+                <br>
+                top: 26.47%;
+                <br>
+                bottom: 5.88%;
+                <br>
+                font-family: 'Jost';
+                <br>
+                font-style: normal;
+                <br>
+                font-weight: 400;
+                <br>
+                font-size: 48px;
+                <br>
+                line-height: 69px;
+                <br>
+                color: #832412;
+                <br>
+                <br>
+                /* Projects Link - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 73.82%;
+                <br>
+                right: 14.79%;
+                <br>
+                top: 26.47%;
+                <br>
+                bottom: 0%;
+                <br>
+                font-family: 'Jost';
+                <br>
+                font-style: normal;
+                <br>
+                font-weight: 400;
+                <br>
+                font-size: 48px;
+                <br>
+                line-height: 69px;
+                <br>
+                color: #832412;
+                <br>
+                <br>
+                /* LinkedIn Logo for Header - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                left: 88.12%;
+                <br>
+                right: 8.54%;
+                <br>
+                top: 36.27%;
+                <br>
+                bottom: 16.67%;
+                <br>
+                background: url(In-Blue-40@2x.png);
+              </code>
+
     		             
     
         </div>      <!-- Content  -->

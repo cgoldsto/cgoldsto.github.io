@@ -34,8 +34,21 @@ a {
   font-weight: 700;
 }
 
-.logo-imasge {
+.logo-image {
   margin-left: 2.5rem;
+}
+
+.comp-fig {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.comp-img {
+  width: 100%;
+}
+
+.card-img {
+  width: 50%;
 }
 
 h1, h2, h3, h4 

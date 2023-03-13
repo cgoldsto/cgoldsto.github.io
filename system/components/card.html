@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-  	<title>Design System: Design by Cora Goldston</title>
+  	<title>Cards: Design by Cora Goldston</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -95,15 +95,138 @@
           <div class = "row p-5 pt-6">
             <div id="content">
 
-              <h2>Component 2 (e.g., cards)</h2>
-              <p>See posted student examples.  </p>
+              <h2>Cards</h2>
+
+              <figure class="comp-fig">
+                <img class="card-img" src="../images/card.png" alt="Image of card">
+              </figure>
+
+              <h3>Description and Use Details</h3>
+              <p>Cards can be used on any page that displays multiple content items of the same type (projects, blog posts, etc.). Cards make content stand out by providing an associated image, title, and description.</p>
+
+              <h3>Accessbility</h3>
+              <ul>
+                <li>Ensure sufficient space between cards, so that users can clearly read and process each card.</li>
+                <li>Use an h tag for the title in the card code. This will differentiate the title and description for screen reader use.</li>
+              </ul>
+
+              <h3>Code</h3>
+              <code>
+                /* Card - Desktop */
+                <br>
+                position: absolute;
+                <br>
+                width: 342px;
+                <br>
+                height: 370px;
+                <br>
+                left: 0px;
+                <br>
+                top: 134px;
+                <br>
+                <br>
+                /* Card Title and Description -- Card Title is an h2 tag in the html */
+                <br>
+                position: absolute;
+                <br>
+                left: 8.77%;
+                <br>
+                right: 8.77%;
+                <br>
+                top: 51.35%;
+                <br>
+                bottom: 2.7%;
+                <br>
+                font-family: 'Jost';
+                <br>
+                font-style: normal;
+                <br>
+                font-weight: 550;
+                <br>
+                font-size: 39.056px;
+                <br>
+                line-height: 56px;
+                <br>
+                color: #000000;
+                <br>
+                <br>
+                /* Card Border */
+                <br>
+                box-sizing: border-box;
+                <br>
+                position: absolute;
+                <br>
+                left: 0%;
+                <br>
+                right: 0%;
+                <br>
+                top: 0%;
+                <br>
+                bottom: 25.41%;
+                <br>
+                border: 2px solid #832412;
+                <br>
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                <br>
+                border-radius: 20px;
+                <br>
+                <br>
+                /* Grey Box for Card Image Placeholder */
+                <br>
+                position: absolute;
+                <br>
+                left: 8.77%;
+                <br>
+                right: 8.77%;
+                <br>
+                top: 8.65%;
+                <br>
+                bottom: 50.27%;
+                <br>
+                background: #D9D9D9;
+                <br>
+                <br>
+                /* Top-Left to Bottom-Right Diagonal Line for Card Image Placeholder */
+                <br>
+                position: absolute;
+                <br>
+                left: 8.77%;
+                <br>
+                right: -2.44%;
+                <br>
+                top: 8.65%;
+                <br>
+                bottom: 91.35%;
+                <br>
+                border: 1px solid #000000;
+                <br>
+                transform: rotate(28.32deg);
+                <br>
+                <br>
+                /* Top-Left to Bottom-Right Diagonal Line for Card Image Placeholder */
+                <br>
+                position: absolute;
+                <br>
+                left: 91.23%;
+                <br>
+                right: -84.9%;
+                <br>
+                top: 8.65%;
+                <br>
+                bottom: 91.35%;
+                <br>
+                border: 1px solid #000000;
+                <br>
+                transform: matrix(-0.88, 0.47, 0.47, 0.88, 0, 0);
+              </code>
+
     		             
     
         </div>      <!-- Content  -->
       </div><!-- Row  -->
     </div><!-- Container -->
 </div>
-
+      <script src="../js/prism.js"></script> 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.min.js"></script>
