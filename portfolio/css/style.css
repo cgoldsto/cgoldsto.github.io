@@ -34,6 +34,20 @@ a {
   font-weight: 700;
 }
 
+.menu-item {
+  display: block;
+  padding-top: 1rem;
+  color: #802412;
+}
+
+.top-item{
+  border-top: 1px solid #802412; 
+}
+
+.logo-fig {
+  margin-bottom: 3rem;
+}
+
 .logo-image {
   margin-left: 2.5rem;
 }
@@ -211,7 +225,7 @@ h4.jost {
 }
 
 .dropdown-toggle {
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
   .dropdown-toggle::after {
