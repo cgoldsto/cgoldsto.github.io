@@ -65,8 +65,51 @@ a {
   width: 50%;
 }
 
-h1, h2, h3, h4 
-.h1, .h2, .h3, .h4 {
+.section {
+  margin: 3.5rem 0;
+  border-top: .125rem solid #802412;
+  border-bottom: .125rem solid #802412;
+  padding: 2rem 0;
+}
+
+.section-name {
+  color: #802412;
+}
+
+.card {
+  align-items: center;
+  padding: 1.5rem 0;
+  border: .0625rem solid #802412;
+}
+
+.card-title {
+  text-align: center;
+  margin-top: .5rem;
+  color: #802412;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.row {
+  margin-bottom: 3rem;
+}
+
+.indent {
+  padding-left: 1rem;
+}
+
+.row.less-margin-bottom {
+  margin-bottom: .5rem;
+}
+
+h2, h3, h4 
+.h2, .h3, .h4 {
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-family: 'Jost';
@@ -75,6 +118,7 @@ h1, h2, h3, h4
 h1, .h1 {
   font-size: 3.052rem;
   font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 h2, .h2 {
@@ -108,17 +152,12 @@ h4, .h4 {
   list-style: none; 
 }
 
-.title {
-  padding-top: 2rem;
-  font-size: 2rem;
-  text-align: center;
+.headline {
+  color: #802412;
 }
 
 .subtitle {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  font-size: .875rem;
-  text-align: center;
+  color: #f09f42;
 }
 
 img {
@@ -127,14 +166,6 @@ width: 80%;
 
 .phone {
   width: 30%
-}
-
-.col-12 {
-  margin-top: 2rem;
-}
-
-.col-md-8 {
-  padding-right: 3rem;
 }
 
 .main-content {
