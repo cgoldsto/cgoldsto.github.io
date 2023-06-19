@@ -36,16 +36,23 @@ a {
 
 .menu-item {
   display: block;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   color: #802412;
+  font-size: 1.5rem;
 }
 
-.top-item{
-  border-top: 1px solid #802412; 
+.nav-icon {
+  width: 50px;
 }
 
-.nav-item {
-  width: 40px;
+.left {
+  float: left;
+  margin-left: 1rem;
+}
+
+.right {
+  float: right;
+  margin-right: 1rem;
 }
 
 .logo-fig {
@@ -71,9 +78,13 @@ a {
 
 .section {
   margin: 3.5rem 0;
-  border-top: .125rem solid #802412;
   border-bottom: .125rem solid #802412;
   padding: 2rem 0;
+  margin-top: 1rem;
+}
+
+.section-top {
+  border-top: .125rem solid #802412;
 }
 
 .section-name {
@@ -153,6 +164,7 @@ h4, .h4 {
 
 footer {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 small {
@@ -553,7 +565,9 @@ h4.jost {
       padding: 10px 0;
       display: block;
       color: #802412;
-      border-bottom: 1px solid #802412; 
+      font-size: 1.5rem;
+      padding-bottom: 2rem;
+      /* border-bottom: 1px solid #802412;  */
     }
 
       #sidebar ul li a:hover {
