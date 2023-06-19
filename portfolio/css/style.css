@@ -44,6 +44,10 @@ a {
   border-top: 1px solid #802412; 
 }
 
+.nav-item {
+  width: 40px;
+}
+
 .logo-fig {
   margin-bottom: 3rem;
 }
@@ -145,6 +149,16 @@ h4, .h4 {
 
 .hero {
   margin-bottom: 1.5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+small {
+  font-size: .75rem;
+  font-weight: 300;
+  color: #802412;
 }
 
 .list-unstyled {
