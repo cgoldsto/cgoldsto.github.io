@@ -25,6 +25,10 @@ a {
   text-decoration: underline;
 }
 
+a.white-link {
+  color: #ffffff;
+}
+
   a:hover {
     color: #3ca38a;
     text-decoration: none; 
@@ -93,7 +97,7 @@ a {
 
 .card {
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1.5rem 5rem;
   border: .0625rem solid #802412;
 }
 
@@ -109,6 +113,14 @@ a {
 
 .card-body {
   padding-bottom: 0;
+}
+
+.purple-card {
+  background-color: #798bc2;
+}
+
+.white-text {
+  color: #ffffff;
 }
 
 .row {
