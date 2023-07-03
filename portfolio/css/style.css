@@ -40,6 +40,8 @@ a.white-link {
 
 figcaption {
   margin-top: 1rem;
+  font-size: .75rem;
+  width: 80%;
 }
 
 .home-jumbo {
