@@ -38,9 +38,15 @@ a.white-link {
   font-weight: 700;
 }
 
+figcaption {
+  margin-top: 1rem;
+}
+
 .home-jumbo {
   background-color: #802412;
   filter: drop-shadow(.5rem .5rem 1rem rgba(0,0,0,.8));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .menu-item {
