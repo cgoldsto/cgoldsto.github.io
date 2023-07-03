@@ -30,12 +30,17 @@ a.white-link {
 }
 
   a:hover {
-    color: #3ca38a;
+    color: #802412;
     text-decoration: none; 
   }
 
 .hov-lede {
   font-weight: 700;
+}
+
+.home-jumbo {
+  background-color: #802412;
+  filter: drop-shadow(.5rem .5rem 1rem rgba(0,0,0,.8));
 }
 
 .menu-item {
@@ -93,6 +98,7 @@ a.white-link {
 
 .section-name {
   color: #802412;
+  font-weight: 600;
 }
 
 .card {
@@ -194,8 +200,14 @@ small {
   color: #802412;
 }
 
+.headline-white {
+  color: #fffaf0;
+  font-size: 4rem;
+}
+
 .subtitle {
-  color: #f09f42;
+  color: rgba(255,250,240, .85);
+  font-weight: 500;
 }
 
 img {
